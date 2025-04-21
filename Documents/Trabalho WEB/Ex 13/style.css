@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+h1 {
+    text-align: center;
+    color: #e63946;
+    margin-bottom: 30px;
+}
+
+.produto {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.produto img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.info h2 {
+    margin: 0;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.preco-antigo {
+    color: #888;
+    font-size: 15px;
+}
+
+.preco-novo {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
