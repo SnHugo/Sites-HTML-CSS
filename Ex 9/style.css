@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .nova-tarefa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .nova-tarefa input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
+  .nova-tarefa .adicionar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .lista-tarefas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-tarefas li {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2);
+    accent-color: #28a745;
+  }
+  
+  .tarefa {
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  input[type="checkbox"]:checked + .tarefa {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .botoes {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .botoes button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .editar {
+    background-color: #014bc3;
+  }
+  
+  .excluir {
+    background-color: #dc3545;
+  }
+  
