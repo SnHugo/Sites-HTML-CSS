@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #c0bbbb, #d7d8d8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 2.1rem;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgba(56, 54, 54, 0.5);
+}
+
+.postagem {
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px 20px 20px 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solic black;
+}
+
+.postagem small {
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:flex-end;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar li {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.container-nav {
+    background-color: #b6b6b6;
+    border: 1px solid #8a8a8a;
+}
+
+.container-nav a {
+    text-decoration:solid;
+    color: black;
+}
+
+a:hover {
+    color: #414141;
+}
+
+ul {
+    padding: 0;
+    margin: 10px 0px 5px 5px;
+}
+
+ul a {
+    text-decoration:underline 1px solid black;
+    color: black;
+
+}
+
+p a {
+    text-decoration:underline 1px solid black;
+    color: black;
+}
+
+p {
+    align-self: start;
+    margin-left: 5px;
+}
