@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    margin-top: 5%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-style: oblique;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+button {
+    padding: 8px;
+    background-color: rgb(40, 67, 80);
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#insta {
+    height: 50px;
+    border-radius: 0%;
+}
+
+#linkedin {
+    height: 50px;
+    border-radius: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#github {
+    height: 50px;
+    width: 50px;
+    border-radius: 0%;
+}
