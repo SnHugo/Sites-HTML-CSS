@@ -30,8 +30,8 @@ Este portfólio tem como finalidade:
 
 📌 Sobre os Autores
 
-Hugo Cesar Fernandes de Macedo
-Augusto Gabriel Claro
+[Hugo Cesar Fernandes de Macedo]
+[Augusto Gabriel Claro]
 Estudantes de Análise e Desenvolvimento de Sistemas – UNICV   
 GitHub: [https://github.com/SnHugo]
         [https://github.com/augustogabrielclaro]
